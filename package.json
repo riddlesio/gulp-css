@@ -1,0 +1,74 @@
+{
+  "_args": [
+    [
+      "@riddles/gulp-css@2.0.1",
+      "/Users/jimvaneeden/development/aion-matchviewer"
+    ]
+  ],
+  "_development": true,
+  "_from": "@riddles/gulp-css@2.0.1",
+  "_id": "@riddles/gulp-css@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-QONltls2DUGjbWGVf8TqiccESf0=",
+  "_location": "/@riddles/gulp-css",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@riddles/gulp-css@2.0.1",
+    "name": "@riddles/gulp-css",
+    "escapedName": "@riddles%2fgulp-css",
+    "scope": "@riddles",
+    "rawSpec": "2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "2.0.1"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@riddles/gulp-css/-/gulp-css-2.0.1.tgz",
+  "_spec": "2.0.1",
+  "_where": "/Users/jimvaneeden/development/aion-matchviewer",
+  "author": {
+    "name": "Niko van Meurs",
+    "email": "niko@riddles.io"
+  },
+  "bugs": {
+    "url": "https://github.com/riddlesio/gulp-css/issues"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.1",
+    "gulp-if": "^2.0.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "postcss-browser-reporter": "^0.4.0",
+    "postcss-cssnext": "^2.4.0",
+    "postcss-import": "^8.0.2",
+    "postcss-reporter": "^1.3.3",
+    "postcss-url": "^5.1.1"
+  },
+  "description": "Gulp task for compiling CSS assets",
+  "devDependencies": {
+    "@riddles/npm-discord-notifier": "^1.0.6"
+  },
+  "homepage": "https://github.com/riddlesio/gulp-css",
+  "keywords": [
+    "Gulp",
+    "CSS",
+    "PostCSS"
+  ],
+  "license": "LicenceRef-LICENSE",
+  "main": "index.js",
+  "name": "@riddles/gulp-css",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/riddlesio/gulp-css.git"
+  },
+  "scripts": {
+    "postpublish": "notify-discord -c \"155423979354456064\" -t \"MTU0NDg5NTMyNTI2MzYyNjI0.CbuABw.yKQdIkpHxxU7ykeCSx9HIEMtkqA\""
+  },
+  "version": "2.0.1"
+}
